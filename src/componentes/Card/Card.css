@@ -1,12 +1,14 @@
 .card{
+    margin-top: 20px;
     width: 220px;
     background-color: white;
     border-radius: 10px;
+    
 }
 
 .card .cardCabecalho{
     border-radius: 10px 10px 0 0;
-    background-color: #57C278;
+    background-color: var(--cor-de-fundo);
 }
 
 .card .cardCabecalho img{
@@ -17,5 +19,10 @@
 }
 
 .card .cardRodape{
-    padding-top: 20px;
+    padding-top: 50px;
+
+    & h5{
+        margin: 20px 0px;
+    }
 }
+

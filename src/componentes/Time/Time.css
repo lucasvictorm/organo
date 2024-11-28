@@ -7,70 +7,23 @@
 .time h3{
     display: inline-block;
     font-size: 24px;
-    border-bottom: 4px solid 
-    
+    text-align: center;
+   
 }
+
+
+.time h3::after{
+    content: '';
+    border: 3px solid var(--cor-principal);
+    display: block;
+    width: 50px;
+    margin: auto;
+
+}
+
 
 .cardsBox{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-/*
-.timeProgramacao{
-    background-color: #D9F7E9;
-
-    & h3{
-        border-bottom: 4px solid #57C278 ;
-        
-    }
-    
-}
-.timeFrontEnd{
-    background-color: #E8F8FF;
-
-    & h3{
-        border-bottom: 4px solid #82CFFA ;
-    }
-}
-
-.timeDataScience{
-    background-color: #F0F8E2;
-
-    & h3{
-        border-bottom: 4px solid #A6D157 ;
-    }
-}
-
-.timeDevOps{
-    background-color: #FDE7E8;
-
-    & h3{
-        border-bottom: 4px solid #E06B69 ;
-    }
-}
-
-.timeUXeDesign{
-    background-color: #FAE9F5;
-
-    & h3{
-        border-bottom: 4px solid #DB6EBF ;
-    }
-}
-
-.timeMobile{
-    background-color: #FFF5D9;
-
-    & h3{
-        border-bottom: 4px solid #FFBA05 ;
-    }
-}
-
-.timeInovacaoeGestao{
-    background-color: #FFEEDF;
-
-    & h3{
-        border-bottom: 4px solid #FF8A29 ;
-    }
-}
-*/
