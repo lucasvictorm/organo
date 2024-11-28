@@ -1,0 +1,21 @@
+.card{
+    width: 220px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card .cardCabecalho{
+    border-radius: 10px 10px 0 0;
+    background-color: #57C278;
+}
+
+.card .cardCabecalho img{
+    width: 80px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -40px;
+}
+
+.card .cardRodape{
+    padding-top: 20px;
+}

@@ -1,0 +1,19 @@
+.lista{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    
+    
+
+    & select{
+        padding: 24px;
+    border: none;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    font-size: 16px;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    }
+}
+
